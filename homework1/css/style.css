@@ -1,10 +1,7 @@
 body{
 	background-color: #ededed;
-	width: 1440px;
-	height: 806px;
 	padding-bottom: 50px;	
-	padding-top: 2px;
-	
+	padding-top: 2px;	
 }
 
 
@@ -35,6 +32,7 @@ a{
 	height: 750px;
 	width: 520px;
 	margin: 0 auto;
+	box-shadow: 0 0 7px #999999;
 	
 }
 
@@ -53,6 +51,12 @@ a{
 
 .div_padding{
 	padding-left:20px
+}
+
+.wraper{
+	border-bottom: 3px solid;
+	padding-bottom: 50px;
+	border-radius: 10px;	
 }
 
 
