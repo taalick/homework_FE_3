@@ -1,0 +1,131 @@
+/*RESTART*/
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: Arial, Tahoma, sans-serif;
+
+	}
+/*WRAPER*/
+	.wrapper{
+ 		border: 1px solid #dbdbdb;
+ 		box-shadow: 0 0 7px #dbdbdb;
+ 		padding: 50px 45px 60px 45px;
+ 		height: 950px;
+ 		width: 1065px;
+ 		margin: 0 auto;
+ 	}
+/*HEADER*/
+	h1{
+		font-size: 48px;
+	}
+	.menu_main{		
+		background: #515151;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	.menu_main ul li{
+		float: left;
+		font-size: 18px;
+		line-height: 40px;
+		text-decoration: none;
+		display:inline-block;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.menu_main ul li a{		
+		color: white;
+		text-decoration: none;	
+	}
+ 
+	.clearfix:after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+
+	.menu_main ul li:hover{		
+		border-left: 1px solid #838383;
+		border-right: 1px solid #838383;
+		background: #454545;
+
+	}	
+/*CONTENT*/
+
+	/*Sidbar*/
+		.content .sidebar{
+			float: left;
+			width: 240px;
+		}
+
+		.content .sidebar li {
+			border-bottom: 1px solid #c8c8c8;
+			border-right: 1px solid #c8c8c8;
+			border-left: 1px solid #c8c8c8;
+			line-height: 40px;
+			list-style: none;
+			text-indent: 25px;
+			width: 240px;
+		}
+
+		.content .sidebar li a{
+			text-decoration: none;
+			color: #656363;
+		}
+
+		.content .sidebar li:first-child{
+			border-top: 1px solid #c8c8c8;
+		}
+
+		.content .sidebar li:hover{
+			display:inline-block;
+			background: #f9f9f9;
+			color: #2c2c2c;
+		}
+
+	/*Article*/
+		.content .article{
+			float: right;
+			padding-left: 50px;			
+		}
+
+		.image{		
+ 		display:inline-block;
+ 		height: 400px;
+ 		width: 665px;
+ 		border: 1px solid #c8c8c8;
+		}
+
+		.article p{
+			width: 650px;
+			padding: 20px;
+			line-height: 25px;
+		}
+
+/*FOOTER*/
+.footer .clearfix ul li a{
+	color: #2c2c2c;
+	text-decoration: none;	
+}
+.footer .clearfix{
+	background: #e1e1e1;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.footer .clearfix ul li{
+	float: left;
+	font-size: 18px;
+	line-height: 40px;
+	display:inline-block;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.footer .clearfix ul li:last-child{
+	float: right;
+}
+
+.footer .clearfix ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #686868;
+}		
