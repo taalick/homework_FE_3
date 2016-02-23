@@ -1,0 +1,160 @@
+
+/*RESET*/
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+/*WRAPPER*/
+	.wrapper{
+
+		width: 500px;
+		height: 540px;
+		margin: 100px auto;	
+	}
+
+/*HEAD*/
+/*CONTENT*/
+
+	table tr td{
+
+		border: 5px solid black;
+	}
+
+	table{
+
+		border-spacing: 0px 0px; 
+	}
+
+	.box1{
+		background-image: url(../img/white.png);
+		width: 116px;
+		height: 48px;
+		border-left: 0px;		
+		border-top: 0px;
+	}
+
+	.box2{
+		background-image: url(../img/white.png);
+		width: 201px;
+		height: 48px;
+		border-top: 0px;
+	}
+
+	.box3{
+		background-image: url(../img/yellow.png);
+		width: 163px;
+		height: 48px;
+		border-top: 0px;
+		border-right: 0px;
+	}
+
+	.box4{
+		background-image: url(../img/whight.png);
+		width: 49px;
+		height: 126px;
+		border-left: 0px;
+	}
+	.box5{
+		background-image: url(../img/red.png);
+		width: 269px;
+		height: 266px;
+	}
+	.box6{
+		background-image: url(../img/yellow.png);
+		width: 163px;
+		height: 126px;
+		border-right: 0px;
+	}
+	.box7{
+		background-image: url(../img/white.png);
+		width: 49px;
+		height: 200px;
+		border-left: 0px;
+	}
+	.box8{
+		background-image: url(../img/white.png);
+		width: 74px;
+		height: 128px;
+	}
+	.box9{
+		background-image: url(../img/white.png);
+		width: 77px;
+		height: 128px;
+		border-right: 0px;
+	}
+	.box10{
+		background-image: url(../img/black_grey.png);
+		width: 58px;
+		height: 63px;
+	}
+
+	.box11{
+		background-image: url(../img/black_grey.png);
+		width: 65px;
+		height: 63px;
+	}
+	.box12{
+		background-image: url(../img/white.png);
+		width: 128px;
+		height: 63px;
+	}
+	.box13{
+		background-image: url(../img/white.png);
+		width: 163px;
+		height: 63px;
+		border-right: 0px;
+	}
+	.box14{
+		background-image: url(../img/yellow.png);
+		width: 49px;
+		height: 134px;		
+		border-left: 0px;		
+		border-bottom: 0px;
+	}
+	.box15{
+		background-image: url(../img/black_grey.png);
+		width: 58px;
+		height: 53px;
+	}
+
+	.box16{
+		background-image: url(../img/black_grey.png);
+		width: 65px;
+		height: 53px;
+	}
+
+	.box17{
+		background-image: url(../img/white.png);
+		width: 128px;
+		height: 53px;		
+	}
+
+	.box18{
+		background-image: url(../img/blue.png);
+		width: 163px;
+		height: 95px;
+		border-right: 0px;
+	}
+
+	.box19{
+		background-image: url(../img/white.png);
+		width: 133px;
+		height: 64px;
+		border-bottom: 0px;
+	}
+
+	.box20{
+		background-image: url(../img/black_grey.png);
+		width: 128px;
+		height: 25px;
+	}
+
+	.box21{
+		background-image: url(../img/white.png);
+		width: 163px;
+		height: 31px;
+		border-right: 0px;
+		border-bottom: 0px;
+	}	
+/*FOTER*/
