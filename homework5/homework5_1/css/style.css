@@ -19,9 +19,9 @@
 	
 /*WRAPER*/
 	.wrapper{
-		background-image: url(../img/homework5.png);
+		background-image: url(../img/homework5.png);		
 		background-repeat: no-repeat;
-		width: 1220px;
+		width: 1210px;
 		height: 1020px;
 		margin: 0 auto;
 		position: relative;
@@ -33,12 +33,14 @@
 		padding: 0;
 		list-style: none;
 		background-color: #054988;
-		height: 35px;			
+		height: 35px;
+		font-size: 15px;			
 	}
 
 	.menu > li{
 		float: right;
 		position: relative;	
+		line-height: 20px;
 
 	}
 	.menu > li > a {
@@ -57,6 +59,7 @@
 	.menu > li:first-child{
 		margin-right: 20px;	
 		padding-left: 10px;
+		line-height: 20px;
 	}
 
 	.menu > li:first-child > a{		
@@ -81,17 +84,20 @@
 	}
 
 	.menu > li:nth-child(2){
-		border-left: 1px solid #56a2dc;	
-		line-height: 15px; 
-	}
+		border-left: 1px solid #56a2dc;			
+	}	
 
-	.menu > li:first-child, .menu > li:first-child > a, .menu > li:nth-child(2) > a{
-		color: white;
-	}
+	.menu > li:nth-child(2) > a{
+		float: left;
+	}	
 
 	.flag{
 		height: 18px;
 		width: 20px;
+	}
+
+	.menu > li:first-child, .menu > li:first-child > a, .menu > li:nth-child(2) > a{
+		color: white;
 	}
 
 /*CONTENT*/
